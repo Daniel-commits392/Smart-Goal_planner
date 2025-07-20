@@ -25,8 +25,8 @@ function GoalForm({ onAddGoal }) {
     })
       .then(res => res.json())
       .then(data => {
-        onAddGoal(data); // send new goal to parent
-        setName('');
+        onAddGoal(data); 
+                setName('');
         setTarget('');
         setDeadline('');
         setProgress('');

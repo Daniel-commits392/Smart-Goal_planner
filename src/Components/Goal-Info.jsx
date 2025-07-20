@@ -1,19 +1,4 @@
-import { useState, useEffect } from 'react';
-import GoalForm from './GoalForm';
-
-function Information() {
-  const [goals, setGoals] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/goals")
-      .then(res => res.json())
-      .then(data => setGoals(data));
-  }, []);
-
-  function handleAddGoal(newGoal) {
-    setGoals([...goals, newGoal]);
-  }
-
+function Information({goals}) {
   return (
     <div>
       <h2>Goal Information</h2>
@@ -26,8 +11,6 @@ function Information() {
           <p>Progress: {goal.progress}</p>
         </div>
       ))}
-
-      <GoalForm onAddGoal={handleAddGoal} />
     </div>
   );
 }

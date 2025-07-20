@@ -20,6 +20,13 @@
       "target": 1300,
       "deadline": "2025-07-20",
       "progress": 800
+    },
+    {
+      "id": "13c5",
+      "name": "Racing Fund",
+      "target": 3000,
+      "deadline": "2025-07-30",
+      "progress": 1200
     }
   ]
 }
