@@ -1,0 +1,25 @@
+{
+  "goals": [
+    {
+      "id": "1",
+      "name": "Travel fund",
+      "target": 5000,
+      "progress": 2000,
+      "deadline": "2023-12-31"
+    },
+    {
+      "id": "2",
+      "name": "Laptop Savings",
+      "target": 1200,
+      "Progress": 800,
+      "deadline": "2024-06-30"
+    },
+    {
+      "id": "cf0c",
+      "name": "Gaming fund",
+      "target": 1300,
+      "deadline": "2025-07-20",
+      "progress": 800
+    }
+  ]
+}
