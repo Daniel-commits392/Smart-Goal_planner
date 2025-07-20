@@ -40,15 +40,14 @@ Here are the main parts:
 ##  How To Run It
 
 1. **Start the backend server**:
-
-npx json-server --watch db.json --port 3000
+    npx json-server --watch db.json --port 3000
 
 2. **Start the frontend React app**:
-   Use: npm run dev
+   Use: npm run dev on your terminal.
    
-4. **Open your browser**
-    You will see a link once you **run npm run dev**. This link will take you to the browser where you will see the application.
+3. **Open your browser**
+    You will see a link  **(http://localhost:5173)**  once you run **npm run dev**. This link will direct you to the browser, where you will be able to view the application.
 
 
 ## Author
-This project is written by Daniel Kariuki Ndungu as part of a **Moringa School** project aimed at letting us learn about React, components, props and state.
+This project is written by Daniel Kariuki Ndungu as part of a **Moringa School** project aimed at letting us learn about React, components, props, and state.
