@@ -14,5 +14,5 @@ function Information({goals}) {
     </div>
   );
 }
-
+  
 export default Information;

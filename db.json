@@ -11,7 +11,7 @@
       "id": "2",
       "name": "Vehicle Savings",
       "target": 1200,
-      "Progress": 800,
+      "progress": 800,
       "deadline": "2024-06-30"
     },
     {
@@ -29,49 +29,60 @@
       "progress": 12050
     },
     {
-       "id": "5",
+      "id": "5",
       "name": "Donation Fund",
       "target": 1200,
       "deadline": "2025-08-30",
-      "progress": 200 
+      "progress": 200
     },
-      {
-       "id": "6",
+    {
+      "id": "6",
       "name": "Animal Fund",
       "target": 3000,
       "deadline": "2026-02-18",
-      "progress": 1200 
+      "progress": 1200
     },
-      {
-       "id": "7",
+    {
+      "id": "7",
       "name": "Tourist Fund",
       "target": 3000,
       "deadline": "2025-07-30",
-      "progress": 1200 
-    },  {
-       "id": "8",
+      "progress": 1200
+    },
+    {
+      "id": "8",
       "name": "Electronic  Fund",
       "target": 3000,
       "deadline": "2025-9-10",
-      "progress": 1200 
-    },  {
-       "id": "9",
+      "progress": 1200
+    },
+    {
+      "id": "9",
       "name": "Begginer Fund",
       "target": 1000,
       "deadline": "2025-10-05",
-      "progress": 1200 
-    },  {
-       "id": "10",
+      "progress": 1200
+    },
+    {
+      "id": "10",
       "name": " Driving Fund",
       "target": 6000,
       "deadline": "2027-05-30",
-      "progress": 1200 
-    },  {
-       "id": "11",
+      "progress": 1200
+    },
+    {
+      "id": "11",
       "name": "Village Fund",
       "target": 113000,
       "deadline": "2026-09-20",
-      "progress": 12000 
+      "progress": 12000
+    },
+    {
+      "id": "df5a",
+      "name": "animal donation",
+      "target": 1000,
+      "deadline": "2025-08-01",
+      "progress": 500
     }
   ]
 }

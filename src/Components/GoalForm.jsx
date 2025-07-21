@@ -8,29 +8,20 @@ function GoalForm({ onAddGoal }) {
 
   function handleSubmit(e) {
     e.preventDefault();
+    console.log('form submitted');
 
     const newGoal = {
+      id: Date.now(), 
       name,
       target: parseFloat(target),
       deadline,
       progress: parseFloat(progress)
     };
-
-    fetch("http://localhost:3000/goals", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(newGoal)
-    })
-      .then(res => res.json())
-      .then(data => {
-        onAddGoal(data); 
-                setName('');
-        setTarget('');
-        setDeadline('');
-        setProgress('');
-      });
+    onAddGoal(newGoal);
+    setName('');
+    setTarget('');
+    setDeadline('');
+    setProgress('');
   }
 
   return (

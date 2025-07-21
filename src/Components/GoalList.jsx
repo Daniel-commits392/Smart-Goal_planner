@@ -1,3 +1,4 @@
+import React from "react";
 import GoalForm from "./GoalForm";
 
 function GoalList ({goals, onAddGoal,onDeleteGoal}) {
