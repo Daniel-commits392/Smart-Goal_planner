@@ -7,7 +7,7 @@ body {
 
 h1, h2 {
   text-align: center;
-  color: #333;
+  color:green;
 }
 
 div {
@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-  background-color: white;
+  background-color: rgb(9, 243, 231);
   margin: 10px auto;
   padding: 15px;
   border-radius: 8px;
