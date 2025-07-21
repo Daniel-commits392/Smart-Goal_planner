@@ -1,7 +1,8 @@
 import React, { useState,useEffect } from 'react';
-import Information from './Components/Goal-Info';
+import Information from './Components/Goal-Information';
 import GoalList from './Components/GoalList';
 import'./Components/style.css';
+
 function App () {
   const [goals, setGoals] = useState([]);
 

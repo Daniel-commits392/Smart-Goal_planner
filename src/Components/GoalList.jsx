@@ -3,7 +3,7 @@ import GoalForm from "./GoalForm";
 function GoalList ({goals, onAddGoal,onDeleteGoal}) {
     return (
         <div>
-            <h2>Goal List</h2>
+            <h2>The Goal List</h2>
             <GoalForm onAddGoal={onAddGoal} />
            <ul>
                 {goals.map(goal => (
