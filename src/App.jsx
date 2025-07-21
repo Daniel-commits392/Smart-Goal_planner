@@ -29,6 +29,7 @@ function App () {
   return (
     <div>
       <h1>Welcome to the Smart Goal Planner</h1>
+      <p>Just write down your goals to keep track of them .</p>
       <GoalList  goals={goals} onAddGoal={handleAddGoal} onDeleteGoal={handleDeleteGoal} />
       <Information goals={goals}/>
     </div>
